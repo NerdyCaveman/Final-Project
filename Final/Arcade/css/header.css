@@ -1,42 +1,63 @@
 
-.social-links {
-  background: #1d92cf;
-  padding: 2rem 0 1rem;
+.hero-full-screen {
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: url("http://78.media.tumblr.com/e7e6eeeb652a0f830a8e7ffe31576754/tumblr_nrem1vfsf51u6lm6go2_500.gif") center center no-repeat;
+  background-size: cover;
 }
 
-.social-links a {
-  color: white;
-  font-size: 1.2rem;
+.hero-full-screen .middle-content-section {
+  text-align: center;
+  color: #fefefe;
 }
 
-.social-links i.fa {
-  font-size: 1.4rem;
-  padding-right: 0.8rem;
-  padding-bottom: 1rem;
+.hero-full-screen .top-content-section {
+  width: 100%;
 }
 
-@media screen and (max-width: 39.9375em) {
-  .social-links {
-    padding: 2rem 0;
-  }
-  .social-links i.fa {
-    font-size: 2rem;
-    display: block;
-    padding-right: 0;
-    padding-bottom: 0.5rem;
-  }
-  .social-links a {
-    font-weight: bold;
-  }
-  .social-links .columns {
-    margin: 1rem 0;
-  }
-  .social-links .mobile-stack {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
+.hero-full-screen .bottom-content-section {
+  padding: 1rem;
+}
+
+.hero-full-screen .bottom-content-section svg {
+  height: 3.75rem;
+  width: 3.75rem;
+  fill: #fefefe;
+}
+
+.hero-full-screen .top-bar {
+  background: transparent;
+}
+
+.hero-full-screen .top-bar .menu {
+  background: transparent;
+}
+
+.hero-full-screen .top-bar .menu-text {
+  color: #fefefe;
+}
+
+.hero-full-screen .top-bar .menu li {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-full-screen .top-bar .menu a {
+  color: #fefefe;
+  font-weight: bold;
 }
