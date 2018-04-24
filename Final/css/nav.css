@@ -5,7 +5,7 @@
 }
 
 .topbar-responsive .topbar-responsive-logo {
-  color: #009900;
+  color: #cc0000;
   vertical-align: middle;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .topbar-responsive .menu a {
-  color:   #009900;
+  color:   #cc0000;
   transition: color 0.15s ease-in;
 }
 
